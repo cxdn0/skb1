@@ -1,0 +1,25 @@
+{
+  "name": "dz1",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node skb1/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cxdn0/dz1.git"
+  },
+  "author": "cxdn0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cxdn0/dz1/issues"
+  },
+  "homepage": "https://github.com/cxdn0/dz1#readme",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "express": "^4.13.4",
+    "svg2png": "^3.0.0"
+  }
+}
