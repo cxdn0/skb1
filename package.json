@@ -18,8 +18,9 @@
   },
   "homepage": "https://github.com/cxdn0/dz1#readme",
   "dependencies": {
-    "lodash": "^3.10.1",
+    "cors": "^2.8.1",
     "express": "^4.13.4",
+    "lodash": "^3.10.1",
     "svg2png": "^3.0.0"
   }
 }

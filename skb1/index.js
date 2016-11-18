@@ -1,11 +1,16 @@
 var express = require('express');
+var cors = require('cors');
 
 const app = express();
+
+app.use(cors());
 app.get('/', (req, res, next) => {
 
   const a = typeof(req.query.a)=="undefined" ? 0 : +req.query.a;
   const b = typeof(req.query.b)=="undefined" ? 0 : +req.query.b;
-  res.send(`Query: ${req.originalUrl} <br>-<br>Вывод: ${a + b}`);
+  //console.log(`Query: ${req.originalUrl} <br>-<br>Вывод: ${a + b}`);
+  console.log(a+b);
+  res.send(a+b+"");
 
 });
 
